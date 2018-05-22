@@ -9,11 +9,18 @@ intList2 = range(1, 10, 2)
 print(intList1)
 print(intList2)
 
+#----------------------
+# index method 
+#----------------------
+string1 = '1st,2st,3st'
+nComma = string1.index(',')
+
+print(nComma)
+
 
 #----------------------
 # split method 
 #----------------------
-string1 = '1st,2st,3st'
 charList = string1.split(',')
 
 print(charList)
